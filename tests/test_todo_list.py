@@ -7,3 +7,7 @@ def test_initially_has_no_todos():
 def test_empty_incomplete():
     list = TodoList()
     assert list.incomplete() == []
+
+def test_empty_complete():
+    list = TodoList()
+    assert list.complete() == []
